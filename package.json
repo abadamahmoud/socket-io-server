@@ -6,8 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w",
     "build": "tsc -b",
-    "dev": "npm run build && nodemon dist/server.js"
-  },
+    "dev": "npm run build && nodemon dist/server.js",
+    "start": "node dist/server.js" 
+  }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
