@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Socket.IO specific
+# Ignore server files if not needed in version control
+/server/*.ts
+/server/*.js
+/server/*.map
